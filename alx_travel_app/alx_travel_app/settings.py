@@ -163,3 +163,6 @@ CELERY_RESULT_BACKEND = env('CELERY_RESULT_BACKEND', default='rpc://')
 
 # drf-yasg (Swagger) config
 # See urls.py for Swagger URL config
+
+AUTH_USER_MODEL = 'listings.User'
+
